@@ -228,8 +228,8 @@ ___
     use strict;
     use warnings;
 
-    chonp(my $name = <STDIN>);
-    print "こんにちは, $yusuke さん!";
+    chomp(my $name = <STDIN>);
+    print "こんにちは, $name さん!";
 
 ---
 # if, else文
